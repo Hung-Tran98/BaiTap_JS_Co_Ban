@@ -29,7 +29,7 @@ function tinhTongKySo() {
     var hangChuc = parseInt(soNguyen / 10);
     console.log(hangChuc,hangDonVi);
     Tong2KySo = hangDonVi + hangChuc;
-    document.getElementById("txtTong2KySo").innerHTML = "Tổng hai ký số là : " + Tong2KySo;
+    document.getElementById("txtTong2KySo").innerHTML = "Tổng hai ký số = " + Tong2KySo;
    
 }
 

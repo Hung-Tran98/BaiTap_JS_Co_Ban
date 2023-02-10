@@ -31,7 +31,7 @@ function tinhTrungBinh() {
     var soThu5 = document.getElementById("soThu5").value;
 
     ketQua = (Number(soThu1)+Number(soThu2)+Number(soThu3)+Number(soThu4)+Number(soThu5))/5;
-    document.getElementById("txtTrungBinh").innerHTML = "Giá trị trung bình là : " + ketQua; 
+    document.getElementById("txtTrungBinh").innerHTML = "Giá trị trung bình = " + ketQua; 
 }
 
 document.getElementById("btnTinhTB").onclick = tinhTrungBinh;

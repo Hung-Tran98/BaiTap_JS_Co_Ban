@@ -28,8 +28,8 @@ function tinhChuViDienTich() {
     var chieuRong = document.getElementById("chieuRong").value;
     chuVi = (Number(chieuDai)+Number(chieuRong))*2;
     dienTich = chieuDai*chieuRong;
-    document.getElementById("txtChuVi").innerHTML = "Chu vi của hình chữ nhật là : " + chuVi;
-    document.getElementById("txtDienTich").innerHTML = "Diện tích của hình chữ nhật là : " + dienTich;
+    document.getElementById("txtChuVi").innerHTML = "Chu vi của hình chữ nhật = " + chuVi;
+    document.getElementById("txtDienTich").innerHTML = "Diện tích của hình chữ nhật = " + dienTich;
 }
 
 document.getElementById("btnTinhCVDT").onclick = tinhChuViDienTich;

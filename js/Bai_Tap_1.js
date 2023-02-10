@@ -25,7 +25,7 @@ function tinhTongLuong() {
     var luongNgay = 100000;
     var soNgayLam = document.getElementById("soNgayLam").value;
     tongLuong = luongNgay * soNgayLam;
-    document.getElementById("txtTongLuong").innerHTML = "Tổng lương của nhân viên là : " + tongLuong.toLocaleString(); 
+    document.getElementById("txtTongLuong").innerHTML = "Tổng lương của nhân viên là : " + tongLuong.toLocaleString() + " VND"; 
 }
 
 document.getElementById("btnTongLuong").onclick = tinhTongLuong;

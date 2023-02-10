@@ -25,7 +25,7 @@ var tienVND = 0 ;
 function tinhQuyDoiVND() {
     var tienUSD = document.getElementById("tienUSD").value;
     tienVND = tienUSD * 23500;
-    document.getElementById("txtQuyDoi").innerHTML = "Giá tiền sau khi quy đổi từ USD sang VND là : " + tienVND.toLocaleString() + " VND";
+    document.getElementById("txtQuyDoi").innerHTML = "Giá tiền sau khi quy đổi từ USD sang VND = " + tienVND.toLocaleString() + " VND";
 }
 
 document.getElementById("btnQuyDoi").onclick = tinhQuyDoiVND;
